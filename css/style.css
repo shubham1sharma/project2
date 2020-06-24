@@ -1,0 +1,33 @@
+#menu ul li a:hover{
+	
+	font-weight: bold;
+	border-bottom: 5px solid #fff;
+}
+
+@media only screen and (max-width: 768px){
+	[class*="col-"]{
+		width: 100%;
+	}
+}
+a {
+	color:#fff;
+}
+
+.vl {
+	border-left: 1px solid grey;
+		
+}
+.fa-chevron-circle-down{
+	color:rgb(107, 107, 211);
+	margin-left: 10px;
+}
+@media only screen and (max-width:768px){
+	.img-responsive{ display:none;}
+	}
+@media only screen and (max-width:768px){
+	.paragraph{ margin-left:15px;text-align: center;}
+}
+@media only screen and (max-width:768px){
+	#hidden{ display: none;}
+}
+	
